@@ -2,40 +2,23 @@ body{
 	background: black;
 }
 
-.title, .videoTrigger, .audioTrigger , .photoTrigger , .infoTrigger {
-	color 			: white;
-	text-align	: center;
-	font-size		:	90px;
-	font-family : Verdana;
-	font-weight	: bold;
-	
-	text-shadow	:/* 700px 0px 0px white, -700px 0px 0px white ,*/ 1px 1px 5px white, -1px -1px 5px white;
-}
-
-.videoTrigger , .audioTrigger, .photoTrigger , .infoTrigger {
-	font-size: 50px;
-	color:cyan;
-	text-shadow	:/* 700px 0px 0px white, -700px 0px 0px white ,*/ 1px 1px 5px cyan, -1px -1px 5px cyan;
-	cursor:pointer;
-}
-
-.photoTrigger , .infoTrigger {
-	color:grey;
-	cursor:default;
-	text-shadow	: 1px 1px 5px grey, -1px -1px 5px grey;
-}
-
-.video{
-	
-}
-.track{
-	margin-top:10px
-}
-
-.videoContainer{
-	display:none
+.title{
+	font-size: 60px;
+	color: lightGrey;
 }
 
 .audioContainer{
-	display:none
+	width: 330px;
+}
+
+.photo{
+	width: 	450px;
+	height: 450px;
+}
+
+.info{
+	width: 330;
+	color: lightGrey;
+	text-align: left;
+
 }
