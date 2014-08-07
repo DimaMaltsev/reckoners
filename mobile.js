@@ -5,7 +5,14 @@ return check; }
 
 if( mobilecheck() ){
 	var all = document.querySelector( ".all" );
-	all.parent.removeChild( all );
+	var aud = document.querySelector( ".audioContainer" );
+	var inf = document.querySelector( ".info" );
+
+	all.parentNode.removeChild( all );
 	var cen = document.querySelector( ".center" );
+	all.className = "";
+	all.style.width = "100%";
+	aud.style.width = "100%";
+	inf.style.fontSize = "20px";
 	cen.appendChild( all );
 }
