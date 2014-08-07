@@ -14,6 +14,6 @@ if( mobilecheck() ){
 	all.className = "";
 	all.style.width = "100%";
 	aud.style.width = "80%";
-	inf.style.fontSize = "20px";
+	inf.style.fontSize = "30px";
 	cen.appendChild( all );
 }
