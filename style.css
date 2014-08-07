@@ -2,9 +2,25 @@ body{
 	background: black;
 }
 
+*{
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+	font-family: Times;
+}
+
+.all{
+	float: right;
+    width: 360px;
+
+}
+
 .title{
-	font-size: 60px;
-	color: lightGrey;
+	font-size: 55px;
+	color: white;
+    
 }
 
 .audioContainer{
@@ -18,6 +34,7 @@ body{
 
 .info{
 	width: 330;
+	font-size: 11px;
 	color: lightGrey;
 	text-align: left;
 
