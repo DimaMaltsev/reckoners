@@ -3,9 +3,9 @@ var curImage;
 var curIndex = -1;
 ( function changeImage(){
 	var img = new Image();
-	var ind = ( 1 + Math.floor( Math.random() * 53 ) );
+	var ind = ( 2 + Math.floor( Math.random() * 52 ) );
 	while( ind == curIndex && curIndex != -1 )
-		ind = ( 1 + Math.floor( Math.random() * 53 ) )
+		ind = ( 2 + Math.floor( Math.random() * 52 ) )
 	curIndex = ind;
 	img.src = "images/i"  + ind +  ".jpg";
 
